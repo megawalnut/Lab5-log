@@ -1,0 +1,22 @@
+﻿Построение начато 09.11.2023 18:33:56.
+     1>Проект "G:\лабылогика\lab5\lab5\lab5.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\lab5.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 1.cpp
+         1.cpp
+     1>g:\лабылогика\lab5\lab5\1.cpp(14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\лабылогика\lab5\lab5\Debug\lab5.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\lab5.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\лабылогика\lab5\lab5\Debug\lab5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\лабылогика\lab5\lab5\Debug\lab5.lib" /MACHINE:X86 Debug\1.obj
+     1>1.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+         lab5.vcxproj -> G:\лабылогика\lab5\lab5\Debug\lab5.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\лабылогика\lab5\lab5\Debug\lab5.exe;#1" /manifest Debug\lab5.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\lab5.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\lab5.lastbuildstate".
+     1>Построение проекта "G:\лабылогика\lab5\lab5\lab5.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:07.75
